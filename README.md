@@ -41,8 +41,7 @@ Unlike conventional methods that rely on large-scale supervised pre-training and
 - FSCIL demands robust **feature expressiveness** to handle few-shot data while preventing forgetting.  
 - **Discriminative backbones** (e.g., ResNet, ViTs, CLIP) often lack the multi-scale, dense representations that come “for free” from diffusion models.  
 - Naively using Stable Diffusion (SD) does not lead to effective FSCIL, we began with this observation (see the following figure):
-
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img width="480" alt="image"  src="https://github.com/user-attachments/assets/f80ffc10-d687-4ee2-aea4-569a57ba2b5a">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img width="480" alt="image"  src="https://github.com/user-attachments/assets/f80ffc10-d687-4ee2-aea4-569a57ba2b5a">   
   - SD itself works better than ImageNet-pre-trained ResNet.
   - SD with popular bells and whistles such as 1) generative replays; 2) LoRA does not improve the FSCIL performance
 
